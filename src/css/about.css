@@ -1,0 +1,40 @@
+.aboutContainer{
+    padding: 10px;
+    border-radius: 10px;
+    margin:100px 0px 20px 50px;
+}
+.about-h2{
+    width:15%;
+    font-weight: bold;
+}
+.aboutText{
+    text-indent: 30px;
+    width: 70%;
+}
+.about-li{
+    list-style: none;
+}
+.icon{
+    margin-right: 10px;
+}
+.aboutContainer h4{
+    font-weight: 700;
+}
+
+@media screen and (max-width:1000px){
+    .aboutContainer{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    .about-h2{
+        width: 40%;
+    }
+    .aboutText{
+        text-indent: 30px;
+        width: 90%;
+    }
+    .about-ul{
+        margin:0px
+    }
+    
+}

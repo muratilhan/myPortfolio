@@ -1,0 +1,23 @@
+.techContainer{
+    padding: 10px;
+    border-radius: 10px;
+    margin:50px 0px 20px 50px;
+
+    
+}
+.tech-h2{
+    width: 17%;
+    font-weight: bold;  
+}
+.li-items{
+    list-style: none;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+@media screen and (max-width:1000px){
+    .techContainer{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+}

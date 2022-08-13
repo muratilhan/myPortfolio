@@ -1,0 +1,29 @@
+.header-span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.headerNavbar{
+    border-bottom: 3px solid rgb(78, 128, 255);
+    border-radius: 0px 0px 70px 70px;  
+}
+.headerContainer{
+    padding:0px;
+    margin: 0px;
+}
+
+.header-items:hover{
+    cursor: pointer;
+    border-bottom: 3px solid rgb(30, 127, 255);
+    transition-duration: 0.5s;
+}
+.header-a{
+    text-decoration: none;
+}
+@media screen and (max-width:1000px){
+    .header-span{
+        margin-left: 50px;
+    }
+    .toggleButton{
+        margin-right: 20px;
+    }
+}
